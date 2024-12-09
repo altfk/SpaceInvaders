@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="js/app.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <div class= "startScreen">
+      <h1>Space Invaders</h1>
+      <p class = "deadLevel">Save your planet by destroying the aliens</p>
+
+      <div class= "instruction">
+        <h3> Instructions </h3>
+        <p> To move spaceship: Keys <-- | --> </p>
+        <p> To shoot: Spacebar </p>
+      </div>
+
+      <p class ="scoreDisplay"></p>
+
+      <div class = "highScore">
+        <h2> Score Board </h2>
+        <ul class="players"></ul>
+
+        <form class="display-score">
+          <input type="text" name="playerName" placeholder="Name">
+          <input type="submit" value="Save Score">
+        </form>
+      </div>
+
+      <button class="playBtn">PRESS START</button>
+      <button class="resetBtn">PLAY AGAIN</button>
+    </div>
+
+    <div class= "display">
+      <p> Score:<span class = "playerScore"> 0 </span> </p>
+      <p> Level:<span class = "levels"> 1 </span> </p>
+      <p> Lives:<span class = "lives">  </span> </p>
+    </div>
+
+    <!-- <div class="levelUpScreen">
+
+    </div> -->
+
+      <div class="grid"></div>
+
+  </body>
+</html>
